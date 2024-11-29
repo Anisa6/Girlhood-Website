@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girlhood Museum</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+  <body>
+    <header>
+        <nav>
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#artifacts">Artifacts</a></li> 
+                <li><a href="#timeline">Timeline of Events</a></li>
+                <li><a href="#cast">Cast of Characters</a></li>
+                <li><a href="#faq">Frequently Asked Questions</a></li>
+             </ul>
+          </section>
+
+        </nav>
+    </header>
+    <main>
+        <header class="header">
+          <nav class="responsive-nav">
+            <h1>Girlhood Museum</h1>
+          </nav>
+        </header>
+      </main>    
+  <section class="hero">
+    <h1>Welcome to Our Page</h1>
+    <p>Your journey starts here!</p>
+    <img src="./images/front page.png" alt="Front Page" class="hero-image">
+  </section>
+
+  <section class="intro">
+    <h2>Introduction</h2>
+    <p>Discover the stories, artifacts, and historical insights that celebrate the journey of girlhood through time.</p>
+  </section>
+
+  <section class="recommendations-grid">
+    <h2>Artifacts</h2>
+    <div class="product-grid">
+      <!-- Artifacts-->
+      <div class="product-card">
+        <img src="./images/Image 1.png" alt="Blazer, Skirts, and Scarf Used by a Member of the Flaming Flashes, 1934">
+        <div class="item-title">Blazer, Skirts, and Scarf (1934)</div>
+        <p>This ensemble represents early 20th-century trends in women's sportswear and the growing acceptance of women's participation in athletics. The "Flaming Flashes" group highlights a bold identity centered around athleticism, challenging traditional gender roles.</p>
+      </div>
+
+      <div class="product-card">
+        <img src="./images/Image 2.png" alt=" Tennis Dress, Worn by Billie Jean King">
+        <div class="item-title"> Tennis Dress, Worn by Billie Jean King During the "Battle of the Sexes"</div>
+        <p>Billie Jean King's tennis dress is an artifact from a pivotal moment in the fight for gender equality in sports. The "Battle of the Sexes" match against Bobby Riggs in 1973 captivated the nation and became a symbolic victory for women athletes. King's dress represents her athletic prowess and her commitment to challenging gender norms and advocating for women's rights in sports..Althea Gibson's tennis outfit signifies the breaking of racial barriers in professional tennis. As the first African American to win Wimbledon in 1957, Gibson's achievement marked a significant milestone in the fight against racial segregation in sports. The Smithsonian description states: "Gibson was the first African-American to play in, and win, Wimbledon." Her outfit serves as a powerful reminder of her groundbreaking accomplishments and the ongoing struggle for racial equality in athletics.</p>
+      </div>
+
+      <div class="product-card">
+      <img src="./images/Image 3.png" alt=" Tennis Outfit, Worn by Althea Gibson">
+      <div class="item-title"> Tennis Outfit, Worn by Althea Gibson</div>
+      <p>Althea Gibson's tennis outfit signifies the breaking of racial barriers in professional tennis. As the first African American to win Wimbledon in 1957, Gibson's achievement marked a significant milestone in the fight against racial segregation in sports. The Smithsonian description states: "Gibson was the first African-American to play in, and win, Wimbledon." Her outfit serves as a powerful reminder of her groundbreaking accomplishments and the ongoing struggle for racial equality in athletics.</p>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/Image 4.png" alt=" Native American Prom Dress">
+      <div class="item-title"> Native American Prom Dress</div>
+      <p>This dress, while lacking specific details in the provided excerpt, represents the expression of cultural identity through fashion. Prom, a quintessential American high school experience, becomes a platform for showcasing and celebrating Native American heritage. This dress likely reflects individual and communal traditions while simultaneously engaging with mainstream American culture. Further research into the dress's specific tribal affiliation and design elements would enrich our understanding of its cultural significance.</p>
+    </div>
+    <div class="product-card">
+      <img src="./images/Image 5.png" alt="Minnijean Brown Trickey's 1959 High School Graduation Dress">
+      <div class="item-title"> Minnijean Brown Trickey's 1959 High School Graduation Dress</div>
+      <p>This dress embodies the resilience and determination of Minnijean Brown Trickey, one of the Little Rock Nine who bravely integrated Central High School in 1957. Despite enduring harassment and ultimately being expelled, Trickey graduated on schedule from New Lincoln School in New York City. The dress, designed by Trickey herself, symbolizes her personal triumph over adversity and the ongoing struggle for racial equality in education. The Smithsonian description notes that the dress "fit perfectly and helped boost her confidence; her graduation photograph was published by several New York papers."</p>
+    </div>
+
+      <!-- 3D Model -->
+      <div class="product-card">
+        <model-viewer src="./3D model/2015_0249_04_and_05_and_06-100k-2048_std.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+          <button slot="ar-button" id="ar-button">
+              View in your space
+          </button>
+          <div id="ar-prompt">
+              <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+          </div>
+      </model-viewer>
+
+        <p>Explore the 3D models showcasing intricate designs and craftsmanship from 1934.</p>
+      </div>
+    </div>
+  </section>
+  <section id="timeline">
+    <h2>Timeline of Events</h2>
+    <ul>
+      <li><strong>1934:</strong> A member of the Flaming Flashes wears a blazer, skirt, and scarf.</li>
+      <li><strong>1950:</strong> Althea Gibson becomes the first Black woman to play in the U.S. Tennis Championships.</li>
+      <li><strong>1957:</strong> Althea Gibson wins Wimbledon, marking a historic milestone for African-American athletes.</li>
+      <li><strong>1959:</strong> Minnijean Brown graduates from New Lincoln School in New York City, designing her own graduation dress.</li>
+      <li><strong>1964:</strong> Althea Gibson breaks racial barriers in professional golf by joining the LPGA.</li>
+      <li>Undated: Billie Jean King competes in the "Battle of the Sexes," wearing her iconic tennis outfit.</li>
+    </ul>
+  </section>
+
+  <section id="cast">
+    <h2>Cast of Characters</h2>
+    <ul>
+      <li><strong>Althea Gibson:</strong> The first Black woman to win Wimbledon and break barriers in tennis and golf.</li>
+      <li><strong>Billie Jean King:</strong> Renowned tennis player and advocate for gender equality, famously winning the "Battle of the Sexes."</li>
+      <li><strong>Minnijean Brown Trickey:</strong> A member of the Little Rock Nine who stood against racial segregation in schools.</li>
+      <li><strong>Mamie Phipps Clark:</strong> Social psychologist and civil rights activist, mentor to Minnijean Brown.</li>
+      <li><strong>The Flaming Flashes:</strong> A 1934 women's athletic group whose uniform symbolized their bold identity.</li>
+    </ul>
+  </section>
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <ul>
+      <li><strong>What is the significance of Minnijean Brown Trickey's 1959 High School Graduation Dress?</strong>
+        <p>The dress represents perseverance during the Civil Rights Movement and the personal triumph of one of the Little Rock Nine in the face of adversity.</p>
+      </li>
+      <li><strong>How does the Native American Prom Dress reflect cultural expression?</strong>
+        <p>It showcases the wearer's pride in Native American heritage while embracing the American prom tradition.</p>
+      </li>
+      <li><strong>What is the historical context of the Flaming Flashes' Blazer, Skirt, and Scarf?</strong>
+        <p>These items reflect early 20th-century trends in womens sportswear and symbolize athletic identity in 1934.</p>
+      </li>
+      <li><strong>How did Althea Gibson's tennis outfit make history?</strong>
+        <p>Her outfit represents breaking racial barriers in tennis, marking her Wimbledon victory in 1957 as a milestone for African-American athletes.</p>
+      </li>
+      <li><strong>Why is Billie Jean King's tennis dress iconic?</strong>
+        <p>It symbolizes her victory in the "Battle of the Sexes," which championed gender equality in sports.</p>
+      </li>
+    </ul>
+  </section>
+<!-- Audio Section -->
+<section id="audio">
+  <ul>
+    <li><strong>Girlhood Its Complicated Podcast</strong></li>
+    <audio controls>
+      <source src="./audio.mp3/Girlhood.mp3" type="audio/mpeg">
+    </audio>
+  </ul>
+</section>
+<footer>
+  <p>&copy; 2024 Girlhood Museum. All rights reserved.</p>
+</footer>
