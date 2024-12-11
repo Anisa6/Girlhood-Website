@@ -1,4 +1,4 @@
-document.getElementById("menu-icon").addEventListener("click", () => {
-    const navLinks = document.getElementById("nav-links");
-    navLinks.classList.toggle("show");
-});
+document.getElementById('menu-icon').addEventListener('click', () => {
+    document.getElementById('nav-links').classList.toggle('show');
+  });
+  

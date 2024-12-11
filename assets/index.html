@@ -79,20 +79,28 @@
 
       <!-- 3D Model -->
       <div class="product-card">
-        <model-viewer src="./3D model/2015_0249_04_and_05_and_06-100k-2048_std.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
-          <div class="progress-bar hide" slot="progress-bar">
-              <div class="update-bar"></div>
-          </div>
-          <button slot="ar-button" id="ar-button">
-              View in your space
-          </button>
-          <div id="ar-prompt">
-              <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-          </div>
-      </model-viewer>
+        <model-viewer src="./3D model/" 
+        ar 
+        ar-modes="webxr scene-viewer quick-look" 
+        camera-controls 
+        tone-mapping="neutral" 
+        poster="./images/poster.webp" 
+        shadow-intensity="1">
+<div class="progress-bar hide" slot="progress-bar">
+  <div class="update-bar"></div>
+</div>
+<button slot="ar-button" id="ar-button">View in your space</button>
+<div id="ar-prompt">
+  <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+</div>
+</model-viewer>
+
 
         <p>Explore the 3D models showcasing intricate designs and craftsmanship from 1934.</p>
       </div>
+    </div>
+    <div class="product-card">
+      <model-viewer src="./3D model/2015_0249_04_and_05_and_06-150k-4096_std.glb"></model-viewer>
     </div>
   </section>
   <section id="timeline">
