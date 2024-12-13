@@ -1,4 +1,6 @@
-document.getElementById('menu-icon').addEventListener('click', () => {
-    document.getElementById('nav-links').classList.toggle('show');
+ menuToggle.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+     menuToggle.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
   });
   
