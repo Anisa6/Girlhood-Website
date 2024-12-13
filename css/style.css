@@ -271,35 +271,3 @@ footer {
   padding: 0 20px;
 }
 
-.footer-section {
-  flex: 1;
-  min-width: 250px;
-  margin: 10px 0;
-}
-
-.footer-section h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.footer-section p, .footer-section ul, .footer-section li {
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.footer-section a {
-  color: #ffc107;
-  text-decoration: none;
-}
-
-.footer-section a:hover {
-  text-decoration: underline;
-}
-
-.footer-bottom {
-  text-align: center;
-  padding: 10px 0;
-  font-size: 12px;
-  border-top: 1px solid #444;
-}
-
